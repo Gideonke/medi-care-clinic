@@ -1,0 +1,156 @@
+.clearfix {
+  clear: both;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+.list1 {
+  color: blue;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.hero {
+  background-image: url(../images/ezgif-2-b583d0ce77.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+div h1 {
+  color: rgb(97, 97, 219);
+  font-size: 30px;
+}
+.hh1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+}
+.button1 {
+  background-color: #496bf2;
+}
+.button2 {
+  background-color: #2dd6c1;
+}
+.button {
+  color: white;
+  border: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 6px 3px;
+  text-align: center;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.hero2 {
+  float: left;
+  padding: 15px;
+  display: inline-flex;
+  padding-left: 500px;
+}
+.hero2 h2 {
+  color: #496bf2;
+  font-size: 30px;
+}
+
+.div1 {
+  float: left;
+  padding: 0px 20px;
+  border: outset;
+  margin: 20px;
+}
+.hh3 {
+  float: right;
+  padding: 10px;
+  width: 45%;
+}
+.but3 {
+  background-color: #496bf2;
+  color: white;
+  font-size: 22px;
+  padding: 12px 24px;
+  margin: 6px 3px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.sec4 h4 {
+  font-size: 25px;
+  text-align: center;
+}
+.sec4 {
+  background-position: center;
+}
+.hh4 {
+  color: rgb(99, 99, 209);
+}
+.span1 {
+  color: rgb(91, 91, 202);
+}
+.span2 {
+  color: #2dd6c1;
+}
+.span3 {
+  color: #496bf2;
+}
+.sec5 p {
+  text-align: center;
+  font-size: 30px;
+}
+.sec4 {
+  text-align: center;
+}
+.sec5 img {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.pic9 {
+  background-image: url("../images/ezgif-2-81a50240fb.png");
+  height: 100vh;
+}
+.forms {
+  top: 30%;
+  right:30%;
+}
+.pic9 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+}
+.but4 {
+  background-color: #3555d4;
+  color: white;
+  font-size: 16px;
+  padding: 4px 28px;
+  margin: 6px 3px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.logo {
+  float: left;
+  width: 25%;
+}
+.finals h5 {
+  font-size: 28px;
+}
+.list4 {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+  padding:0px 7px;
+  margin:0px 10px;
+}
+.home {
+  color: rgb(82, 82, 230);
+}
+.li6 {
+  text-decoration: none;
+  list-style-type: none;
+
+}
