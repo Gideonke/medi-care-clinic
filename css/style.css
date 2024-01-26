@@ -114,8 +114,8 @@ div h1 {
   height: 100vh;
 }
 .forms {
-  top: 30%;
-  right:30%;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 .pic9 {
   background-repeat: no-repeat;
@@ -143,8 +143,8 @@ div h1 {
   text-decoration: none;
   list-style-type: none;
   font-size: 20px;
-  padding:0px 7px;
-  margin:0px 10px;
+  padding: 0px 7px;
+  margin: 0px 10px;
 }
 .home {
   color: rgb(82, 82, 230);
@@ -152,5 +152,4 @@ div h1 {
 .li6 {
   text-decoration: none;
   list-style-type: none;
-
 }
