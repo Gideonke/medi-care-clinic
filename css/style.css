@@ -7,7 +7,7 @@ nav ul {
   list-style-type: none;
 }
 .list1 {
-  color: blue;
+  color: #496bf2;
 }
 
 nav ul li {
@@ -22,7 +22,7 @@ nav ul li {
 }
 
 div h1 {
-  color: rgb(97, 97, 219);
+  color: #496bf2;;
   font-size: 30px;
 }
 .hh1 {
@@ -49,9 +49,8 @@ div h1 {
 }
 .hero2 {
   float: left;
-  padding: 15px;
   display: inline-flex;
-  padding-left: 500px;
+  padding-left: 0px;
 }
 .hero2 h2 {
   color: #496bf2;
@@ -60,13 +59,13 @@ div h1 {
 
 .div1 {
   float: left;
-  padding: 0px 20px;
+  padding: 120px;
   border: outset;
   margin: 20px;
 }
 .hh3 {
   float: right;
-  padding: 10px;
+  padding: 30px;
   width: 45%;
 }
 .but3 {
@@ -86,10 +85,10 @@ div h1 {
   background-position: center;
 }
 .hh4 {
-  color: rgb(99, 99, 209);
+  color: #496bf2;;
 }
 .span1 {
-  color: rgb(91, 91, 202);
+  color: #496bf2;;
 }
 .span2 {
   color: #2dd6c1;
@@ -102,7 +101,8 @@ div h1 {
   font-size: 30px;
 }
 .sec4 {
-  text-align: center;
+  width: 50%;
+  margin: 0px auto;
 }
 .sec5 img {
   height: 100vh;
@@ -113,9 +113,11 @@ div h1 {
   background-image: url("../images/ezgif-2-81a50240fb.png");
   height: 100vh;
 }
-.forms {
-  padding: 20px;
-  margin-bottom: 50px;
+.forms input {
+  padding: 35px 40px;
+  width: 40%;
+  margin: 0px 24px;
+  box-sizing: border-box;
 }
 .pic9 {
   background-repeat: no-repeat;
@@ -124,13 +126,15 @@ div h1 {
   height: 60vh;
 }
 .but4 {
-  background-color: #3555d4;
+  background-color: #496bf2;;
   color: white;
   font-size: 16px;
-  padding: 4px 28px;
+  padding: 22px 28px;
   margin: 6px 3px;
   border-radius: 5%;
   cursor: pointer;
+  width: 15%;
+  right: 20%;
 }
 .logo {
   float: left;
@@ -147,9 +151,47 @@ div h1 {
   margin: 0px 10px;
 }
 .home {
-  color: rgb(82, 82, 230);
+  color: #496bf2;;
 }
 .li6 {
   text-decoration: none;
   list-style-type: none;
+}
+.quota1 {
+  padding-right: 900px;
+  padding-bottom: 30px;
+}
+.quota2 {
+  display: block;
+  float: right;
+}
+.para {
+  font-size: 28px;
+}
+.testimonial {
+  width: 20px;
+  height: 20px;
+  border:80px;
+  border-radius: 50%;
+  margin:0 auto;
+  float:left;
+  padding: 5px;
+}
+.test1 {
+  background-color: #496bf2;;
+}
+.test2 {
+  background-color: #2dd6c1;
+}
+.test3 {
+  background-color: #16ceb8;
+}
+.maintest{
+  padding: 20px;
+  margin: 0px 30px;
+
+}
+.maintest{
+  width:10%;
+  margin:0 auto;
 }
