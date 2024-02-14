@@ -4,8 +4,12 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
-p {
+p{
   line-height: 40px;
+  font-size: 20px;
+}
+h2{
+  font-size: 50px;
 }
 .clearfix {
   clear: both;
@@ -18,18 +22,17 @@ p {
 nav ul {
   float: right;
   list-style-type: none;
-  font-size: 28px;
+  font-size: 20px;
 }
 .list1 {
   color: #496bf2;
 }
-.art {
-  font-size: 25px;
+.hero p {
   margin: 30px 0;
 }
 nav ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 25px;
 }
 .hero {
   background-image: url(../images/ezgif-2-b583d0ce77.png);
@@ -38,14 +41,15 @@ nav ul li {
   background-size: cover;
 }
 
-div h1 {
+.hero h1 {
   color: #496bf2;
   font-size: 60px;
 }
 .hh1 {
   position: absolute;
-  top: 30%;
+  top: 22%;
   left: 50%;
+  right: 5%;
 }
 .button1 {
   background-color: #496bf2;
@@ -57,11 +61,11 @@ div h1 {
   color: white;
   border: none;
   display: inline-block;
-  font-size: 28px;
-  padding: 25px 60px;
+  font-size: 20px;
+  padding: 20px 60px;
   margin: 6px 3px;
   text-align: center;
-  border-radius: 5%;
+  border-radius: 5px;
   cursor: pointer;
 }
 .hero2 {
@@ -69,7 +73,7 @@ div h1 {
   display: inline-flex;
   margin: 70px 0;
 }
-.hero2 h2 {
+.hero2 h3 {
   color: #496bf2;
   font-size: 30px;
   margin: 20px 0;
@@ -86,43 +90,27 @@ div h1 {
 .div1:nth-child(2) {
   margin: 0 5%;
 }
-.quali {
-  font-size: 25px;
-}
+
 .hh3 {
   float: right;
   /* padding: 30px; */
   width: 47%;
 }
 
-.hh3 h3 {
-  margin-bottom: 20px;
-}
-
-.but3 {
-  background-color: #496bf2;
-  color: white;
-  font-size: 32px;
-  padding: 22px 40px;
-  margin: 20px 3px;
-  border-radius: 5px;
-  cursor: pointer;
+.hh3 p {
+  margin: 20px 0;
 }
 .sec4 h4 {
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
   margin: 40px 0px;
+  color:#496bf2;
 }
 .sec4 {
   text-align: center;
 }
-.hh4 {
-  color: #496bf2;
-  padding-left: 150px;
-}
-.pp1 {
-  font-size: 28px;
-}
+
+
 .span1 {
   color: #496bf2;
 }
@@ -132,7 +120,10 @@ div h1 {
 .span3 {
   color: #496bf2;
 }
-.sec5 p {
+.sec5{
+  margin:70px 0;
+}
+.sec5 h2 {
   text-align: center;
   font-size: 50px;
   margin-bottom: 40px;
@@ -146,33 +137,39 @@ div h1 {
   background-position: center;
   background-size: cover;
 }
-.pic9 {
+.contact-form-image {
   background-image: url("../images/ezgif-2-81a50240fb.png");
-  height: 100vh;
-}
-.forms input {
-  padding: 35px 40px;
-  width: 40%;
-  margin: 0px 24px;
-  box-sizing: border-box;
-}
-.pic9 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 70vh;
 }
-.but4 {
-  background-color: #496bf2;
-  color: white;
-  font-size: 30px;
-  padding: 30px 28px;
-  margin: 0px 15px;
-  border-radius: 5%;
-  cursor: pointer;
-  width: 15%;
-  right: 20%;
+
+.form {
+  width: 50%;
+  padding: 40px;
 }
+.input-container, textarea{
+  background-color: white;
+  margin-bottom: 15px;
+  padding:25px 20px;
+  border-radius: 5px;
+}
+.input-container input{
+  font-size: 17px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+textarea{
+  font-size: 17px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+
+
 .logo {
   float: left;
   width: 25%;
@@ -195,6 +192,9 @@ div h1 {
   text-decoration: none;
   list-style-type: none;
 }
+/* .sec4 h4{
+
+} */
 .quota1 {
   padding-bottom: 30px;
   text-align: left;
@@ -202,8 +202,7 @@ div h1 {
 .quota2 {
   text-align: right;
 }
-.para {
-  font-size: 28px;
+.sec4 p{
   text-align: left;
 }
 .testimonial {
@@ -215,6 +214,9 @@ div h1 {
   float: left;
   padding: 10px;
 }
+.testimonial:nth-child(2){
+  margin:0 30px;
+}
 .test1 {
   background-color: #496bf2;
 }
@@ -224,30 +226,23 @@ div h1 {
 .test3 {
   background-color: #16ceb8;
 }
-.maintest {
-  padding: 15px;
-  margin: 0px 40px;
-}
-.maintest {
-  width: 10%;
+.maintest{
+  width: 15%;
   margin: 0 auto;
 }
-.area textarea {
-  padding-bottom: 150px;
-  width: 40%;
-  margin: 0px 20px;
-}
+
 .blue {
   color: #496bf2;
-  font-size: 50px;
 }
 .green {
   color: #2dd6c1;
-  font-size: 50px;
+
 }
-.sec5 {
-  margin: 30px 0;
-}
+
 .finals ul li {
   margin: 16px 0px;
+}
+
+.facebook{
+  margin:0 15%;
 }
